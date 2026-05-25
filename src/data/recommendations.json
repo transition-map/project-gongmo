@@ -1,0 +1,124 @@
+[
+  {
+    "id": "REC-001",
+    "region": "서울 A권역",
+    "programName": "지역 연계 직업체험 프로그램",
+    "targetProfile": {
+      "careerInterest": "직업체험",
+      "mobilityRange": "대중교통 30분 이내",
+      "supportLevel": "중간 지원"
+    },
+    "reason": "학생의 관심 분야인 직업체험과 현재 지역 내 이용 가능한 연계기관 정보를 기준으로 추천되었습니다.",
+    "accessibility": "대중교통 30분 이내",
+    "relatedAgency": "서울 A권역 전환교육지원센터",
+    "teacherMemo": "상담 시 학생의 이동 가능 범위와 보호자 동행 가능 여부를 추가 확인해야 합니다.",
+    "alternativePath": "인접 권역 온라인 진로탐색 프로그램",
+    "evidenceData": [
+      "현재 기준 프로그램 데이터",
+      "지역별 접근성 점수",
+      "학생 프로필 입력값",
+      "현재 공백 유형: 프로그램 부족형"
+    ]
+  },
+  {
+    "id": "REC-002",
+    "region": "서울 A권역",
+    "programName": "디지털 기초역량 단기 워크숍",
+    "targetProfile": {
+      "careerInterest": "디지털 기초역량",
+      "mobilityRange": "대중교통 30분 이내",
+      "supportLevel": "낮은 지원"
+    },
+    "reason": "현재 기준 권역 내 프로그램 공급량이 부족하나 단기 워크숍 형태로 참여 진입 장벽이 낮습니다.",
+    "accessibility": "대중교통 30분 이내",
+    "relatedAgency": "서울 A권역 평생학습관",
+    "teacherMemo": "워크숍 일정과 기초 디지털 기기 사용 경험을 학생과 함께 점검하는 것이 좋습니다.",
+    "alternativePath": "온라인 자기주도형 디지털 학습 모듈",
+    "evidenceData": [
+      "현재 기준 프로그램 데이터",
+      "학생 프로필 입력값",
+      "현재 공백 유형: 프로그램 부족형"
+    ]
+  },
+  {
+    "id": "REC-003",
+    "region": "부산 B권역",
+    "programName": "거점기관 연계 사회서비스 체험",
+    "targetProfile": {
+      "careerInterest": "사회서비스",
+      "mobilityRange": "대중교통 1시간 이내",
+      "supportLevel": "중간 지원"
+    },
+    "reason": "권역 내 연계기관 수가 감소한 상태이므로 거점기관 중심의 안정적인 체험 경로를 우선 제안합니다.",
+    "accessibility": "대중교통 1시간 이내",
+    "relatedAgency": "부산 B권역 거점 사회서비스 센터",
+    "teacherMemo": "거점기관까지의 이동 시간과 동선을 사전에 점검하는 것이 좋습니다.",
+    "alternativePath": "인접 권역 사회서비스 기관과의 일일 연계 프로그램",
+    "evidenceData": [
+      "현재 기준 기관 연계 데이터",
+      "지역별 접근성 점수",
+      "학생 프로필 입력값",
+      "현재 공백 유형: 기관 부족형"
+    ]
+  },
+  {
+    "id": "REC-004",
+    "region": "충청 C권역",
+    "programName": "온라인 진로탐색 모듈 + 월 1회 거점 체험",
+    "targetProfile": {
+      "careerInterest": "직업체험",
+      "mobilityRange": "온라인 참여 가능",
+      "supportLevel": "중간 지원"
+    },
+    "reason": "권역 접근성 점수가 낮은 상태이므로 평소 온라인 학습과 월 1회 오프라인 체험을 결합한 혼합형 경로가 적합합니다.",
+    "accessibility": "온라인 참여 가능",
+    "relatedAgency": "충청 C권역 거점 진로교육원",
+    "teacherMemo": "오프라인 체험일에는 보호자 동행 또는 셔틀 이용 여부를 미리 안내하는 것이 좋습니다.",
+    "alternativePath": "인접 권역 거점기관 정기 방문 프로그램",
+    "evidenceData": [
+      "현재 기준 접근성 데이터",
+      "지역별 이동 거리 정보",
+      "학생 프로필 입력값",
+      "현재 공백 유형: 접근성 취약형"
+    ]
+  },
+  {
+    "id": "REC-005",
+    "region": "전남 D권역",
+    "programName": "전환기 집중 상담 + 진로탐색 동행 프로그램",
+    "targetProfile": {
+      "careerInterest": "문화예술",
+      "mobilityRange": "거주지 인근",
+      "supportLevel": "높은 지원"
+    },
+    "reason": "권역 내 상담지원 점수 하락 추세에 대응하여 전담 상담인력과 동행 진로탐색을 결합한 경로를 우선 제안합니다.",
+    "accessibility": "거주지 인근",
+    "relatedAgency": "전남 D권역 전환기 상담센터",
+    "teacherMemo": "상담 회차와 보호자 참여 일정을 학기 단위로 사전에 협의하는 것이 좋습니다.",
+    "alternativePath": "외부 전문기관 연계 단기 상담 프로그램",
+    "evidenceData": [
+      "현재 기준 상담 자원 데이터",
+      "학생 프로필 입력값",
+      "현재 공백 유형: 상담지원 부족형"
+    ]
+  },
+  {
+    "id": "REC-006",
+    "region": "전체",
+    "programName": "광역 온라인 진로탐색 공동과정",
+    "targetProfile": {
+      "careerInterest": "사무보조",
+      "mobilityRange": "온라인 참여 가능",
+      "supportLevel": "낮은 지원"
+    },
+    "reason": "지역 자원이 부족한 권역의 학생도 참여 가능한 광역 공동과정으로, 거주지 제약을 받지 않습니다.",
+    "accessibility": "온라인 참여 가능",
+    "relatedAgency": "광역 진로교육 협력 컨소시엄",
+    "teacherMemo": "온라인 학습 환경(기기, 네트워크)과 학생의 자기주도 학습 가능 여부를 점검해야 합니다.",
+    "alternativePath": "권역 내 도서관 학습공간 이용 + 온라인 수강",
+    "evidenceData": [
+      "현재 기준 광역 프로그램 데이터",
+      "학생 프로필 입력값"
+    ]
+  }
+]

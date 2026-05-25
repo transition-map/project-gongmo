@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "source": "demo:official-resource-registry",
+    "license": "link-only",
+    "datasetCategory": "official-resource",
+    "generatedAt": "2026-05-21T00:00:00+09:00",
+    "note": "공식자료 연결용 link-only registry입니다. 본문 전문을 복제하지 않고 제목·기관·분류·짧은 요약·원문 URL 중심으로 관리합니다. AI 정책 생성이 아니며 AI 생성 문구 등록 금지. 11-3 1차-64 정책으로 사용자 지정 4개 공식자료(KEAD 직업심리검사 / NISE-TEEMH / NISE 2026 워크숍 / CareerNet 자료실) + KEAD 지역본부·지사 확인 링크 1건 = 총 5건 보유. 지역별 자동 추천이 아니라 사용자가 KEAD 페이지에서 지역본부·지사를 직접 확인하는 link-only 안내입니다. 정확한 관할은 원문에서 최종 확인하세요. 국가 기관·중앙 공공기관 출처 한정. 공식 자료를 기반으로 한 시연용 초안이며, 실제 활용 전 교사의 종합적인 검토가 필요합니다.",
+    "policy": {
+      "aiGeneratedAllowed": false,
+      "fullTextCopyAllowed": false,
+      "humanReviewRequired": true,
+      "preferredOrganizationTypes": [
+        "national-agency",
+        "public-institution",
+        "national-service"
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "kead-online-occupational-test-guidance",
+      "title": "온라인 직업심리검사 안내",
+      "organization": "한국장애인고용공단 (KEAD)",
+      "organizationType": "public-institution",
+      "category": "직업심리검사 / 전환교육",
+      "targets": ["중·고등 장애학생", "전공과", "특수교육 교사"],
+      "useCases": ["직업심리검사 안내", "전환교육 검사 자료 탐색"],
+      "url": "https://hub.kead.or.kr/ve/eovOnlineOccpTrlPrsecGuidance.do",
+      "sourceType": "official-site",
+      "summary": "장애유형과 대상별 검사 목록을 한곳에 모아둔 안내 페이지로, 전환교육에 필요한 검사 자료를 빠르게 찾을 수 있습니다.",
+      "freshnessTier": "current",
+      "featuredOrder": 1,
+      "licenseNote": "원문 링크 연결. 전문 복제 금지.",
+      "aiGenerated": false
+    },
+    {
+      "id": "nise-teemh-intro",
+      "title": "NISE-TEEMH 소개",
+      "organization": "국립특수교육원 (NISE)",
+      "organizationType": "national-agency",
+      "category": "전환능력검사 / 전환역량 프로그램",
+      "targets": ["초·중·고 특수교육대상자", "특수교육 교사"],
+      "useCases": ["전환능력검사", "교과연계 전환역량 향상 프로그램"],
+      "url": "https://nise.go.kr/teemh/info/intro.do",
+      "sourceType": "official-site",
+      "summary": "초·중·고 특수교육대상자를 위한 전환능력검사와 교과연계 전환역량 향상 프로그램을 제공하는 체계입니다.",
+      "freshnessTier": "current",
+      "featuredOrder": 2,
+      "licenseNote": "원문 링크 연결. 전문 복제 금지.",
+      "aiGenerated": false
+    },
+    {
+      "id": "nise-workshop-2026-737999",
+      "title": "2026년 장애학생 진로·직업교육 담당자 워크숍",
+      "organization": "국립특수교육원 (NISE)",
+      "organizationType": "national-agency",
+      "category": "진로직업교육 / 현장 적용 / 연수",
+      "targets": ["진로직업교육 담당자", "특수교육 교사"],
+      "useCases": ["현장 적용", "연수", "검사·프로그램 연결 동향 파악"],
+      "url": "https://www.nise.go.kr/boardCnts/view.do?boardID=16&boardSeq=737999&lev=0&searchType=null&statusYN=W&page=1&s=nise&m=0301&opType=N",
+      "sourceType": "official-site",
+      "summary": "현장 적용과 연수 성격이 강한 자료로, 검사와 프로그램을 연결하는 최신 흐름을 파악하는 데 도움이 됩니다.",
+      "publishedYear": 2026,
+      "freshnessTier": "current",
+      "featuredOrder": 3,
+      "licenseNote": "원문 링크 연결. 전문 복제 금지.",
+      "aiGenerated": false
+    },
+    {
+      "id": "careernet-data-list",
+      "title": "커리어넷 진로교육자료 전체 목록",
+      "organization": "한국직업능력연구원 — 진로정보망 커리어넷",
+      "organizationType": "public-institution",
+      "category": "진로교육자료 / 자료 목록",
+      "targets": ["진로교사", "특수교육 교사", "학교 진로교육 담당자"],
+      "useCases": ["진로교육 자료 탐색", "수업 자료 보조"],
+      "url": "https://www.career.go.kr/cloud/w/data/list",
+      "sourceType": "official-site",
+      "summary": "커리어넷 진로교육자료 전체 목록을 확인할 수 있는 자료실입니다.",
+      "freshnessTier": "current",
+      "featuredOrder": 4,
+      "licenseNote": "원문 링크 연결. 전문 복제 금지.",
+      "aiGenerated": false
+    },
+    {
+      "id": "kead-regional-branches",
+      "title": "한국장애인고용공단 지역본부·지사 안내",
+      "organization": "한국장애인고용공단 (KEAD)",
+      "organizationType": "public-institution",
+      "category": "지역 안내 / 전환교육 연계",
+      "targets": ["특수교육 교사", "전공과", "보호자", "지역 연계 담당자"],
+      "useCases": ["지역본부·지사 확인", "장애학생 취업지원 문의처 확인", "지역 전환교육 연계 자원 탐색"],
+      "url": "https://www.kead.or.kr/directions/directionsOtherPage.do?menuId=MENU0819&searchType=1",
+      "sourceType": "official-site",
+      "summary": "전국 지역본부·지사의 위치와 연락처를 확인할 수 있는 공식 안내 페이지입니다. 지역 단위 전환교육·취업지원 연계 자원을 찾을 때 활용합니다.",
+      "freshnessTier": "current",
+      "featuredOrder": 5,
+      "licenseNote": "원문 링크 연결. 전문 복제 금지.",
+      "aiGenerated": false
+    }
+  ]
+}

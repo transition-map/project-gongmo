@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["ES2023"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["node"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "erasableSyntaxOnly": true
+  },
+  "include": [
+    "scripts/etl/**/*.ts",
+    "src/lib/etl/**/*.ts",
+    "src/lib/indicators/**/*.ts",
+    "src/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "data"
+  ]
+}

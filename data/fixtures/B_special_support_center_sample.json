@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "B",
+    "description": "시연용 특수교육지원센터 목록. (시연용) 명시. 실제 기관과 무관."
+  },
+  "records": [
+    {
+      "sourceId": "SC-001",
+      "institutionName": "강남특수교육지원센터 (시연용)",
+      "address": "서울시 강남구 시연용로 100",
+      "regionCode": "11680"
+    },
+    {
+      "sourceId": "SC-002",
+      "institutionName": "해운대특수교육지원센터 (시연용)",
+      "address": "부산시 해운대구 시연용로 200",
+      "regionCode": "26350"
+    },
+    {
+      "sourceId": "",
+      "institutionName": "수원영통특수교육지원센터 (시연용)",
+      "address": "경기도 수원시 영통구 시연용로 300",
+      "regionCode": "41117"
+    }
+  ]
+}

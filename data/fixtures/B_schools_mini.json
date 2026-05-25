@@ -1,0 +1,41 @@
+[
+  {
+    "schoolId": "school:demo:seoul-elem-a",
+    "neisSchoolCode": "B000000001",
+    "schoolName": "서울시연초등학교 A",
+    "schoolLevel": "elementary",
+    "schoolType": "general",
+    "establishmentType": "public",
+    "address": "서울특별시 시연구 시연동 123",
+    "sidoName": "서울특별시",
+    "sigunguName": "시연구",
+    "latitude": 37.5665,
+    "longitude": 126.978
+  },
+  {
+    "schoolId": "school:demo:busan-mid-b",
+    "neisSchoolCode": "B000000002",
+    "schoolName": "부산시연중학교 B",
+    "schoolLevel": "middle",
+    "schoolType": "general",
+    "establishmentType": "public",
+    "address": "부산광역시 시연구 시연동 456",
+    "sidoName": "부산광역시",
+    "sigunguName": "시연구",
+    "latitude": 35.1796,
+    "longitude": 129.0756
+  },
+  {
+    "schoolId": "school:demo:daejeon-special-c",
+    "neisSchoolCode": "B000000003",
+    "schoolName": "대전시연특수학교 C",
+    "schoolLevel": "special",
+    "schoolType": "special",
+    "establishmentType": "public",
+    "address": "대전광역시 시연구 시연동 789",
+    "sidoName": "대전광역시",
+    "sigunguName": "시연구",
+    "latitude": null,
+    "longitude": null
+  }
+]

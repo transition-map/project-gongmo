@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "A",
+    "description": "시연용 시군구별 특수교육대상자 수. 학생 개인 식별정보 없음."
+  },
+  "records": [
+    { "regionCode": "11680", "specialEducationStudentCount": 380, "year": 2026 },
+    { "regionCode": "26350", "specialEducationStudentCount": 295, "year": 2026 },
+    { "regionCode": "41117", "specialEducationStudentCount": 510, "year": 2026 },
+    { "regionCode": "43113", "specialEducationStudentCount": 240, "year": 2026 },
+    { "regionCode": "46110", "specialEducationStudentCount": 180, "year": 2026 },
+    { "regionCode": "51110", "specialEducationStudentCount": 210, "year": 2026 },
+    { "regionCode": "INVALID", "specialEducationStudentCount": 100, "year": 2026 }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "B",
+    "description": "시연용 학교 기본정보. 학교명은 (시연용) 명시. 실제 학교와 무관."
+  },
+  "records": [
+    {
+      "neisSchoolCode": "S0001",
+      "schoolName": "강남특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "서울시 강남구 시연용로 10",
+      "regionCode": "11680"
+    },
+    {
+      "neisSchoolCode": "S0002",
+      "schoolName": "강남일반고특수학급 (시연용)",
+      "schoolType": "specialClassInGeneralSchool",
+      "address": "서울시 강남구 시연용로 11",
+      "regionCode": "11680"
+    },
+    {
+      "neisSchoolCode": "",
+      "schoolName": "해운대특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "부산시 해운대구 시연용로 20",
+      "regionCode": "26350"
+    },
+    {
+      "neisSchoolCode": "S0004",
+      "schoolName": "영통특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "경기도 수원시 영통구 시연용로 30",
+      "regionCode": "41117"
+    },
+    {
+      "neisSchoolCode": "S0005",
+      "schoolName": "흥덕특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "충청북도 청주시 흥덕구 시연용로 40",
+      "regionCode": "43113"
+    },
+    {
+      "neisSchoolCode": "S0006",
+      "schoolName": "목포특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "전라남도 목포시 시연용로 50",
+      "regionCode": "46110"
+    },
+    {
+      "neisSchoolCode": "S0007",
+      "schoolName": "춘천특수학교 (시연용)",
+      "schoolType": "specialSchool",
+      "address": "강원특별자치도 춘천시 시연용로 60",
+      "regionCode": "51110"
+    },
+    {
+      "neisSchoolCode": "",
+      "schoolName": "",
+      "schoolType": "specialSchool",
+      "address": "",
+      "regionCode": ""
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "source": "demo:recommendation-evidence-sample-curated",
+    "license": "human-curated",
+    "datasetCategory": "recommendation-evidence",
+    "generatedAt": "2026-05-24T00:00:00+09:00",
+    "note": "추천 카드 검토 근거용 사람 검수 evidence fixture입니다. AI 정책 추천 또는 자동 확정 추천이 아니며, 사람 검수 결과만 등록합니다. 공식자료(KEAD / NISE / 복지시설 / 교통약자 이동지원 등) 연계는 후속 검토 단계입니다. 본 evidence는 실제 활용 전 교사의 종합적인 검토가 필요합니다.",
+    "policy": {
+      "aiGeneratedAllowed": false,
+      "humanReviewRequired": true,
+      "minimumReviewFields": ["curator", "reviewedAt"],
+      "fullTextCopyAllowed": false
+    },
+    "curator": "추천근거 검토자 A",
+    "reviewedAt": "2026-05-24T00:00:00+09:00",
+    "reviewVersion": "v1.0"
+  },
+  "records": [
+    {
+      "evidenceId": "office-basic-training",
+      "routeType": "agency-based",
+      "programKeywords": [
+        "사무보조기초과정",
+        "기초과정",
+        "훈련",
+        "과정",
+        "course",
+        "training"
+      ],
+      "summaryTitle": "기초 사무역량 훈련 경로",
+      "whyThisFits": "사무보조 직무를 시작하기 전 문서 정리, 일정 보조, 사무기기 활용처럼 초기 직무 적응에 필요한 역량을 점검하는 경로입니다.",
+      "teacherCheck": [
+        "프로그램 참여 가능 시간과 출석 기준을 확인하세요.",
+        "사무기기 사용·문서 정리 등 기본 업무 수행에 필요한 지원 수준을 점검하세요.",
+        "훈련 이후 체험 또는 취업 단계로 이어질 수 있는지 학교 내 지원 계획을 확인하세요."
+      ],
+      "familyDiscussion": [
+        "학생이 사무보조 업무에 흥미를 느끼는지 확인하세요.",
+        "훈련 장소까지의 이동 방법과 보호자 동행 필요 여부를 함께 점검하세요."
+      ],
+      "limitations": [
+        "본 경로는 시연용 검토 후보이며 실제 참여 가능 여부는 담당 기관 확인이 필요합니다.",
+        "공식자료 연계는 후속 검토 단계입니다."
+      ],
+      "sourceLabel": "시연용 검수 evidence",
+      "sourceType": "curated-demo",
+      "aiGenerated": false
+    },
+    {
+      "evidenceId": "workplace-experience",
+      "routeType": "school-based",
+      "programKeywords": [
+        "지역사업장 직업체험",
+        "사업장",
+        "체험",
+        "현장",
+        "workplace",
+        "experience"
+      ],
+      "summaryTitle": "지역 사업장 체험 경로",
+      "whyThisFits": "실제 사업장 환경을 짧게 경험하며 이동 가능 범위, 현장 소음·동선, 직무 지시 이해 정도를 함께 점검하는 경로입니다.",
+      "teacherCheck": [
+        "체험 장소의 접근성, 이동 동선, 보조 인력 필요 여부를 사전에 확인하세요.",
+        "체험 시간이 학생의 집중 가능 시간과 맞는지 확인하세요.",
+        "현장 담당자와 학생 지원 방식에 대한 사전 소통이 가능한지 점검하세요."
+      ],
+      "familyDiscussion": [
+        "학생이 낯선 사업장 환경에 부담을 느끼는지 확인하세요.",
+        "보호자 동행 여부와 귀가 동선을 사전에 함께 정하세요."
+      ],
+      "limitations": [
+        "현장체험은 실제 근로계약이나 취업 보장을 의미하지 않습니다.",
+        "체험 가능 일정과 지원 조건은 담당 기관 확인이 필요합니다."
+      ],
+      "sourceLabel": "시연용 검수 evidence",
+      "sourceType": "curated-demo",
+      "aiGenerated": false
+    },
+    {
+      "evidenceId": "office-employment-exploration",
+      "routeType": "agency-based",
+      "programKeywords": [
+        "사무 보조원",
+        "보조원",
+        "취업",
+        "직무",
+        "job",
+        "employment"
+      ],
+      "summaryTitle": "취업 직무 탐색 경로",
+      "whyThisFits": "사무보조 직무를 실제 취업 후보로 검토하기 위해 업무 난이도, 근무 시간, 지원 필요 수준을 함께 정리하는 경로입니다.",
+      "teacherCheck": [
+        "지원 가능한 직무가 학생의 현재 수행 수준과 맞는지 확인하세요.",
+        "근무 시간, 직무 지시 방식, 휴식 공간 등 근무 조건을 점검하세요.",
+        "취업 전 직무훈련 또는 현장체험이 먼저 필요한지 검토하세요."
+      ],
+      "familyDiscussion": [
+        "학생이 취업보다 훈련 또는 체험을 먼저 원하는지 확인하세요.",
+        "장기 출퇴근 가능성과 가족의 지원 가능 범위를 함께 논의하세요."
+      ],
+      "limitations": [
+        "본 경로는 취업 확정이 아니라 취업 가능성을 검토하기 위한 후보입니다.",
+        "실제 채용 여부와 근무 조건은 원문 또는 담당 기관 확인이 필요합니다."
+      ],
+      "sourceLabel": "시연용 검수 evidence",
+      "sourceType": "curated-demo",
+      "aiGenerated": false
+    },
+    {
+      "evidenceId": "review-candidate-fallback",
+      "routeType": "mixed",
+      "programKeywords": [],
+      "summaryTitle": "맞춤 경로 검토 후보",
+      "whyThisFits": "학생 프로필과 지역 시연 데이터를 함께 검토하기 위한 후보 경로입니다.",
+      "teacherCheck": [
+        "학생의 흥미, 이동 가능 범위, 지원 필요 수준을 다시 확인하세요.",
+        "프로그램 참여 전 담당 기관의 신청 조건을 확인하세요."
+      ],
+      "familyDiscussion": [
+        "학생과 보호자가 기대하는 활동 목표를 함께 정리하세요.",
+        "참여 부담이 큰 경우 훈련, 체험, 상담 중 어떤 단계가 먼저 적절한지 논의하세요."
+      ],
+      "limitations": [
+        "본 경로는 시연용 검토 후보이며 자동 확정 추천이 아닙니다.",
+        "실제 활용 전 교사의 종합적인 검토가 필요합니다."
+      ],
+      "sourceLabel": "시연용 검수 evidence",
+      "sourceType": "curated-demo",
+      "aiGenerated": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "A",
+    "description": "시연용 시군구별 등록장애인 수 집계. 개인 식별정보 없음."
+  },
+  "records": [
+    { "regionCode": "11680", "registeredDisabledCount": 18400, "year": 2026 },
+    { "regionCode": "26350", "registeredDisabledCount": 16700, "year": 2026 },
+    { "regionCode": "41117", "registeredDisabledCount": 12900, "year": 2026 },
+    { "regionCode": "43113", "registeredDisabledCount": 13500, "year": 2026 },
+    { "regionCode": "46110", "registeredDisabledCount": 11800, "year": 2026 },
+    { "regionCode": "51110", "registeredDisabledCount": 12200, "year": 2026 }
+  ]
+}

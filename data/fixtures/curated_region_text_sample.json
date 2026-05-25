@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "source": "demo:curated-region-text-registry",
+    "license": "human-curated",
+    "datasetCategory": "curated-region-text",
+    "generatedAt": "2026-05-22T00:00:00+09:00",
+    "note": "사람 검수 결과만 등록하는 region별 분석 문구(mainIssue / policyUse / teacherUse) registry입니다. AI 정책 생성이 아니며 AI 생성 문구 등록 금지. 11-3 1차-67은 schema-only 단계로 records는 빈 배열이며 실제 문구는 사용자가 별도 단계에서 사람 검수 결과로만 채웁니다. regionCode → 기관 자동 매칭이 아니라 정확 매칭(exact lookup)만 수행하며, regionAdapter fallback chain 연결도 후속 별도 합의에서만 진행합니다. 공식 자료를 기반으로 한 시연용 초안이며, 실제 활용 전 교사의 종합적인 검토가 필요합니다.",
+    "policy": {
+      "aiGeneratedAllowed": false,
+      "humanReviewRequired": true,
+      "minimumReviewFields": ["curator", "reviewedAt"]
+    }
+  },
+  "records": []
+}

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "G",
+    "description": "시연용 시군구 코드 샘플. 형식 검증용 가공 데이터이며 실제 KOSTAT 코드와의 일치는 우연임."
+  },
+  "records": [
+    { "regionCode": "11680", "sidoName": "서울특별시", "sigunguName": "강남구" },
+    { "regionCode": "26350", "sidoName": "부산광역시", "sigunguName": "해운대구" },
+    { "regionCode": "41117", "sidoName": "경기도", "sigunguName": "수원시 영통구" },
+    { "regionCode": "43113", "sidoName": "충청북도", "sigunguName": "청주시 흥덕구" },
+    { "regionCode": "46110", "sidoName": "전라남도", "sigunguName": "목포시" },
+    { "regionCode": "51110", "sidoName": "강원특별자치도", "sigunguName": "춘천시" },
+    { "regionCode": "ABCD", "sidoName": "비정상", "sigunguName": "테스트(issue 발생용)" }
+  ]
+}

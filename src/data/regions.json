@@ -1,0 +1,226 @@
+[
+  {
+    "region": "서울 A권역",
+    "regionCode": "DEMO-SIGUNGU-01",
+    "regionCodeType": "sigungu",
+    "regionName": "서울 A권역",
+    "currentYear": 2026,
+    "yearlySupport": [
+      {
+        "year": 2022,
+        "programCount": 22,
+        "agencyCount": 11,
+        "accessibilityScore": 74,
+        "careerLinkageScore": 70,
+        "counselingSupportScore": 71
+      },
+      {
+        "year": 2023,
+        "programCount": 21,
+        "agencyCount": 10,
+        "accessibilityScore": 73,
+        "careerLinkageScore": 69,
+        "counselingSupportScore": 70
+      },
+      {
+        "year": 2024,
+        "programCount": 19,
+        "agencyCount": 10,
+        "accessibilityScore": 72,
+        "careerLinkageScore": 68,
+        "counselingSupportScore": 69
+      },
+      {
+        "year": 2025,
+        "programCount": 17,
+        "agencyCount": 9,
+        "accessibilityScore": 71,
+        "careerLinkageScore": 66,
+        "counselingSupportScore": 68
+      },
+      {
+        "year": 2026,
+        "programCount": 15,
+        "agencyCount": 9,
+        "accessibilityScore": 70,
+        "careerLinkageScore": 65,
+        "counselingSupportScore": 67
+      }
+    ],
+    "currentGapIndex": 76,
+    "trendRiskScore": 67,
+    "supportChange": -31.8,
+    "gapType": "프로그램 부족형",
+    "mainIssue": "최근 5년간 프로그램 수가 22개에서 15개로 31.8% 감소했고, 현재 학생 수요 대비 선택 가능한 전환교육 프로그램이 가장 부족한 상태입니다.",
+    "policyUse": "교육청은 해당 권역의 프로그램 공급량과 진로연계 기관 수를 우선 점검하고, 공급 감소 추세를 멈추기 위한 예산 재배분 검토가 필요합니다.",
+    "teacherUse": "교사는 현재 기준 추천 가능 프로그램 목록을 확인하고, 인접 권역 또는 온라인 연계 자원을 함께 안내할 수 있습니다."
+  },
+  {
+    "region": "부산 B권역",
+    "regionCode": "DEMO-SIGUNGU-02",
+    "regionCodeType": "sigungu",
+    "regionName": "부산 B권역",
+    "currentYear": 2026,
+    "yearlySupport": [
+      {
+        "year": 2022,
+        "programCount": 16,
+        "agencyCount": 14,
+        "accessibilityScore": 68,
+        "careerLinkageScore": 71,
+        "counselingSupportScore": 67
+      },
+      {
+        "year": 2023,
+        "programCount": 16,
+        "agencyCount": 12,
+        "accessibilityScore": 67,
+        "careerLinkageScore": 69,
+        "counselingSupportScore": 66
+      },
+      {
+        "year": 2024,
+        "programCount": 17,
+        "agencyCount": 10,
+        "accessibilityScore": 67,
+        "careerLinkageScore": 67,
+        "counselingSupportScore": 65
+      },
+      {
+        "year": 2025,
+        "programCount": 17,
+        "agencyCount": 8,
+        "accessibilityScore": 66,
+        "careerLinkageScore": 65,
+        "counselingSupportScore": 65
+      },
+      {
+        "year": 2026,
+        "programCount": 17,
+        "agencyCount": 7,
+        "accessibilityScore": 66,
+        "careerLinkageScore": 63,
+        "counselingSupportScore": 64
+      }
+    ],
+    "currentGapIndex": 71,
+    "trendRiskScore": 72,
+    "supportChange": -50.0,
+    "gapType": "기관 부족형",
+    "mainIssue": "프로그램 수는 유지되었으나 연계기관 수가 14개에서 7개로 절반 감소했고, 현재 학생 1인당 기관 접근 기회가 부족한 상태입니다.",
+    "policyUse": "교육청은 지역사회 연계기관 확충과 기존 기관과의 협약 갱신을 우선 검토할 필요가 있습니다.",
+    "teacherUse": "교사는 기관 의존도가 낮은 프로그램과 학교 내 자원을 우선 안내하고, 부족한 기관 정보는 인접 권역과 연계할 수 있습니다."
+  },
+  {
+    "region": "충청 C권역",
+    "regionCode": "DEMO-SIGUNGU-03",
+    "regionCodeType": "sigungu",
+    "regionName": "충청 C권역",
+    "currentYear": 2026,
+    "yearlySupport": [
+      {
+        "year": 2022,
+        "programCount": 14,
+        "agencyCount": 9,
+        "accessibilityScore": 58,
+        "careerLinkageScore": 62,
+        "counselingSupportScore": 64
+      },
+      {
+        "year": 2023,
+        "programCount": 14,
+        "agencyCount": 9,
+        "accessibilityScore": 55,
+        "careerLinkageScore": 61,
+        "counselingSupportScore": 63
+      },
+      {
+        "year": 2024,
+        "programCount": 14,
+        "agencyCount": 9,
+        "accessibilityScore": 52,
+        "careerLinkageScore": 60,
+        "counselingSupportScore": 63
+      },
+      {
+        "year": 2025,
+        "programCount": 13,
+        "agencyCount": 9,
+        "accessibilityScore": 49,
+        "careerLinkageScore": 60,
+        "counselingSupportScore": 62
+      },
+      {
+        "year": 2026,
+        "programCount": 13,
+        "agencyCount": 9,
+        "accessibilityScore": 46,
+        "careerLinkageScore": 59,
+        "counselingSupportScore": 62
+      }
+    ],
+    "currentGapIndex": 78,
+    "trendRiskScore": 64,
+    "supportChange": -20.7,
+    "gapType": "접근성 취약형",
+    "mainIssue": "프로그램 수와 기관 수는 유지되었으나 접근성 점수가 58점에서 46점으로 지속 하락했고, 농산어촌 지역 특성상 이동 거리·교통이 제약 요인으로 작용합니다.",
+    "policyUse": "교육청은 권역 내 셔틀 운영, 거점기관 지정, 온라인 진로탐색 인프라 확충을 우선 검토할 필요가 있습니다.",
+    "teacherUse": "교사는 거주지 인근 또는 온라인 참여가 가능한 프로그램을 우선 안내하고, 보호자 동행이 필요한 경우 사전 협의가 권장됩니다."
+  },
+  {
+    "region": "전남 D권역",
+    "regionCode": "DEMO-SIGUNGU-04",
+    "regionCodeType": "sigungu",
+    "regionName": "전남 D권역",
+    "currentYear": 2026,
+    "yearlySupport": [
+      {
+        "year": 2022,
+        "programCount": 12,
+        "agencyCount": 8,
+        "accessibilityScore": 60,
+        "careerLinkageScore": 64,
+        "counselingSupportScore": 70
+      },
+      {
+        "year": 2023,
+        "programCount": 12,
+        "agencyCount": 8,
+        "accessibilityScore": 60,
+        "careerLinkageScore": 63,
+        "counselingSupportScore": 65
+      },
+      {
+        "year": 2024,
+        "programCount": 12,
+        "agencyCount": 8,
+        "accessibilityScore": 59,
+        "careerLinkageScore": 62,
+        "counselingSupportScore": 60
+      },
+      {
+        "year": 2025,
+        "programCount": 12,
+        "agencyCount": 8,
+        "accessibilityScore": 59,
+        "careerLinkageScore": 61,
+        "counselingSupportScore": 53
+      },
+      {
+        "year": 2026,
+        "programCount": 12,
+        "agencyCount": 8,
+        "accessibilityScore": 59,
+        "careerLinkageScore": 60,
+        "counselingSupportScore": 47
+      }
+    ],
+    "currentGapIndex": 73,
+    "trendRiskScore": 70,
+    "supportChange": -32.9,
+    "gapType": "상담지원 부족형",
+    "mainIssue": "프로그램 수와 기관 수는 유지되었으나 상담지원 점수가 70점에서 47점으로 큰 폭으로 하락했고, 전환교육 단계에서 개별 상담 자원이 부족합니다.",
+    "policyUse": "교육청은 권역별 전환교육 전담 상담인력 충원과 학교-센터 간 상담 연계 체계를 우선 검토할 필요가 있습니다.",
+    "teacherUse": "교사는 학생·보호자 상담 일정을 사전에 조정하고, 외부 상담기관 연계가 필요한 경우 인접 권역의 자원을 함께 안내할 수 있습니다."
+  }
+]

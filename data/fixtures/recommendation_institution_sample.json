@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "source": "demo:recommendation-institution-sample-curated",
+    "license": "human-curated",
+    "datasetCategory": "recommendation-institution",
+    "generatedAt": "2026-05-25T00:00:00+09:00",
+    "note": "추천 카드 기관 후보 표시용 사람 검수 fixture입니다. 실제 기관 매칭 완료가 아니며, 자동 추천 확정이 아닙니다. 사용자가 기관 페이지에서 참여 가능 여부를 직접 확인해야 합니다. AI 정책 추천 또는 자동 확정 추천이 아니며, 11-3 1차-158 RecommendationEvidence / 1차-136 region_hierarchy_subset / 1차-67 curatedRegionText 패턴 동형으로 사람 검수 결과만 등록합니다.",
+    "policy": {
+      "aiGeneratedAllowed": false,
+      "humanReviewRequired": true,
+      "minimumReviewFields": ["curator", "reviewedAt"],
+      "fullTextCopyAllowed": false
+    },
+    "curator": "기관 검토자 A",
+    "reviewedAt": "2026-05-25T00:00:00+09:00",
+    "reviewVersion": "v1.0"
+  },
+  "records": [
+    {
+      "institutionId": "demo:agency:11680:training-center-001",
+      "institutionName": "강남구 시연용 직업훈련센터",
+      "institutionType": "trainingCenter",
+      "sidoName": "서울특별시",
+      "sigunguName": "강남구",
+      "regionCode": "11680",
+      "supportedRouteTypes": ["agency-based"],
+      "supportedEvidenceIds": ["office-basic-training"],
+      "role": "직업훈련기관",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "실제 참여 가능 여부는 기관에 직접 확인이 필요합니다.",
+      "aiGenerated": false
+    },
+    {
+      "institutionId": "demo:agency:11680:support-center-001",
+      "institutionName": "강남구 시연용 특수교육지원센터",
+      "institutionType": "supportCenter",
+      "sidoName": "서울특별시",
+      "sigunguName": "강남구",
+      "regionCode": "11680",
+      "supportedRouteTypes": ["agency-based", "mixed"],
+      "supportedEvidenceIds": ["office-basic-training", "review-candidate-fallback"],
+      "role": "특수교육지원센터",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "실제 상담 가능 여부는 담당 기관 확인이 필요합니다.",
+      "aiGenerated": false
+    },
+    {
+      "institutionId": "demo:employer:26350:workplace-001",
+      "institutionName": "해운대구 시연용 현장체험 사업장",
+      "institutionType": "employer",
+      "sidoName": "부산광역시",
+      "sigunguName": "해운대구",
+      "regionCode": "26350",
+      "supportedRouteTypes": ["school-based"],
+      "supportedEvidenceIds": ["workplace-experience"],
+      "role": "현장체험 사업장",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "현장체험 가능 일정과 지원 조건은 기관 확인이 필요합니다.",
+      "aiGenerated": false
+    },
+    {
+      "institutionId": "demo:agency:41110:employment-001",
+      "institutionName": "수원시 시연용 고용지원기관",
+      "institutionType": "publicAgency",
+      "sidoName": "경기도",
+      "sigunguName": "수원시",
+      "regionCode": "41110",
+      "supportedRouteTypes": ["agency-based"],
+      "supportedEvidenceIds": ["office-employment-exploration"],
+      "role": "고용지원기관",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "실제 채용 여부와 상담 가능 일정은 기관 확인이 필요합니다.",
+      "aiGenerated": false
+    },
+    {
+      "institutionId": "demo:agency:43110:training-center-001",
+      "institutionName": "청주시 시연용 직업훈련기관",
+      "institutionType": "trainingCenter",
+      "sidoName": "충청북도",
+      "sigunguName": "청주시",
+      "regionCode": "43110",
+      "supportedRouteTypes": ["agency-based"],
+      "supportedEvidenceIds": ["office-basic-training", "office-employment-exploration"],
+      "role": "직업훈련기관",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "실제 참여 가능 여부와 이동 지원 조건은 기관 확인이 필요합니다.",
+      "aiGenerated": false
+    },
+    {
+      "institutionId": "demo:agency:46110:support-center-001",
+      "institutionName": "목포시 시연용 지역지원기관",
+      "institutionType": "supportCenter",
+      "sidoName": "전라남도",
+      "sigunguName": "목포시",
+      "regionCode": "46110",
+      "supportedRouteTypes": ["mixed", "agency-based"],
+      "supportedEvidenceIds": ["review-candidate-fallback"],
+      "role": "지역 지원기관",
+      "sourceLabel": "시연용 기관 후보",
+      "caution": "실제 지원 가능 여부는 담당 기관 확인이 필요합니다.",
+      "aiGenerated": false
+    }
+  ]
+}

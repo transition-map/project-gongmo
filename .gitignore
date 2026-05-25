@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# ETL data lake (실데이터·중간 산출물 — git 미추적)
+# data/fixtures/ 는 의도된 demo 입력이므로 commit 허용 (여기 명시 X)
+data/raw/
+data/clean/
+# 11-2 1차-13 신규 — real 모드 clean 산출물 (실 행안부 CSV 가공물)
+data/clean.real/
+data/master/
+# 11-3 1차-24 신규 — real 모드 master 산출물 (B school master.real 등)
+data/master.real/
+data/mart/
+# 11-3 1차-30 신규 — real 모드 mart 산출물 (B region_summary mart.real 등)
+data/mart.real/
+data/indicator/
+# 11-3 1차-38 신규 — real 모드 indicator 산출물 (B transition_index.real.json 등)
+data/indicator.real/
+# 11-3 1차-75 신규 — 사용자 manual API 응답 raw (NEIS / KEAD 등 공공데이터 OpenAPI 응답).
+# Claude Code / CI / Vercel은 본 경로에 파일을 생성하지 않는다 — 사용자 로컬 실행 시점에만 생성.
+data/raw.api/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

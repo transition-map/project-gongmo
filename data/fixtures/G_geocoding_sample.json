@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "source": "demo",
+    "license": "demo-only",
+    "datasetCategory": "G",
+    "description": "시연용 주소→좌표 매핑 샘플. 좌표는 한반도 대략 영역 내 임의값."
+  },
+  "records": [
+    { "address": "서울시 강남구 시연용로 1", "lat": 37.51, "lng": 127.06 },
+    { "address": "부산시 해운대구 시연용로 2", "lat": 35.16, "lng": 129.16 },
+    { "address": "경기도 수원시 영통구 시연용로 3", "lat": 37.27, "lng": 127.05 },
+    { "address": "충청북도 청주시 흥덕구 시연용로 4", "lat": 36.65, "lng": 127.45 },
+    { "address": "전라남도 목포시 시연용로 5", "lat": 34.81, "lng": 126.39 },
+    { "address": "강원특별자치도 춘천시 시연용로 6", "lat": 37.88, "lng": 127.73 },
+    { "address": "범위밖 테스트", "lat": 89.0, "lng": 0.0 },
+    { "address": "", "lat": null, "lng": null }
+  ]
+}
