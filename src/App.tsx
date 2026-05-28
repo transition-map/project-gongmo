@@ -13,6 +13,7 @@ import { useRegionList } from "./hooks/useRegionList";
 import { useRegionDashboardData } from "./hooks/useRegionDashboardData";
 import { toRegionDataList } from "./lib/dashboard/regionAdapter";
 import { toLegacyRecommendations } from "./lib/dashboard/recommendationAdapter";
+import SpecialEducationStatsSection from "./components/SpecialEducationStatsSection";
 // 11-3 1차-97 — buildScenarioFromProfile derived value 도입.
 // legacy StudentProfile state는 그대로 유지하고 StudentScenario는 useMemo로 파생.
 import { buildScenarioFromProfile } from "./lib/scenario/buildScenarioFromProfile";
@@ -251,6 +252,8 @@ function App() {
             onSelectRegion={handleSelectRegion}
             recommendations={displayedRecommendations}
           />
+          <SpecialEducationStatsSection />
+        </>
         )}
         {activeSection === "regional" && (
           <RegionalAnalysis
