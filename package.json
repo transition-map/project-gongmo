@@ -14,6 +14,8 @@
     "etl:fixture:all": "tsx scripts/etl/runEtl.ts --mode fixture --stage all",
     "etl:real:clean": "tsx scripts/etl/runEtl.ts --mode real --stage clean",
     "etl:real:neis-fetch": "tsx scripts/etl/cli/neisFetch.ts",
+    "build:special-ed-stats:pdf": "python scripts/extract-special-education-pdf.py",
+    "build:special-ed-stats:csv": "node scripts/build-special-education-stats.mjs",
     "typecheck:etl": "tsc -p tsconfig.etl.json --noEmit"
   },
   "dependencies": {
